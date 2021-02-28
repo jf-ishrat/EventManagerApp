@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/childTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Sector Head.Then select code for head and volunteer"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:paddingLeft="?android:expandableListPreferredChildPaddingLeft"
+
+        />
+    <EditText
+        android:id="@+id/headNameEditId"
+        android:paddingLeft="?android:expandableListPreferredChildPaddingLeft"
+        android:textSize="20sp"
+        android:hint="Name of sector head"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_round"
+        />
+    <EditText
+        android:id="@+id/headCodeId"
+        android:paddingLeft="?android:expandableListPreferredChildPaddingLeft"
+        android:textSize="20sp"
+        android:hint="Code for sector head"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_round"
+        />
+    <EditText
+        android:id="@+id/volunteerCodeId"
+        android:paddingLeft="?android:expandableListPreferredChildPaddingLeft"
+        android:textSize="20sp"
+        android:hint="Code for volunteer"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_round"
+        />
+
+
+
+
+
+</LinearLayout>
